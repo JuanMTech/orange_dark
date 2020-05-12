@@ -1,5 +1,5 @@
 # A matte black theme with an orange accent color
-# Creater: Juan - @juanmtech
+# Creator: Juan - @juanmtech
 # Website: https://www.juanmtech.com
 # YouTube Channel: https://youtube.com/juanmtech
 # My Home Assistant Config files: https://github.com/JuanMTech/Home_Assistant_files
@@ -13,7 +13,7 @@ Orange Dark:
   primary-color: "#DF6040"
   light-primary-color: var(--primary-color)
   primary-background-color: "#282A2F"
-  secondary-background-color: var(--primary-background-color)
+  secondary-background-color: "#303236"
   divider-color: var(--primary-background-color)
   # Text
   primary-text-color: "#BDC1C6"
@@ -47,7 +47,7 @@ Orange Dark:
   label-badge-gray: "#5F6267"
 
   # Cards
-  ha-card-border-radius: "15px"
+  ha-card-border-radius: "10px"
   ha-card-box-shadow: 0px
   paper-card-background-color: "#303236"
   paper-listbox-background-color: "#282A2F"
@@ -65,3 +65,7 @@ Orange Dark:
   table-row-background-color: var(--primary-background-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   data-table-background-color: var(--primary-background-color)
+  # Dropdowns
+  material-background-color: var(--secondary-background-color)
+  material-secondary-background-color: var(--primary-background-color)
+  
